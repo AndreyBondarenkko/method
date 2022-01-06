@@ -4,7 +4,7 @@
     const category = prompt('Категория товара');
     const price = prompt('Цена товара');
 
-    if(isNaN(count)){
+    if(isNaN(count) || isNaN(price)){
         console.log('Вы ввели некорректные данные');
     }else{
         console.log(`Наименование товара : ${item}`);
